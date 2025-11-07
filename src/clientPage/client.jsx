@@ -10,7 +10,7 @@ function Client() {
     useEffect(() => {
         const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080';
 
-        fetch(`${API_BASE_URL}/clients`)
+        fetch(`${API_BASE_URL}/client`)
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
