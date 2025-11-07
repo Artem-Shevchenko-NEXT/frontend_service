@@ -32,7 +32,7 @@ function Client() {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen p-4">
-            <h1 className="text-3xl font-bold mb-4">Client Overview 🎉</h1>
+            <h1 className="text-3xl font-bold mb-4">Client Overview</h1>
             <pre className="bg-gray-100 p-4 rounded text-black">
                 {JSON.stringify(clients, null, 2)}
             </pre>
